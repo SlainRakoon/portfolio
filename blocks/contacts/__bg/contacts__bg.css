@@ -1,0 +1,9 @@
+.contacts__bg {
+  position: absolute;
+  background-image: url(../../../images/Dots.svg);
+  background-size: contain;
+  width: 103px;
+  height: 103px;
+  top: 247px;
+  left: -36px;
+}

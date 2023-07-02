@@ -1,0 +1,6 @@
+.footer__frame-logo {
+  width: 346px;
+  height: 58px;
+  display: flex;
+  flex-wrap: wrap;
+}

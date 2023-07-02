@@ -1,0 +1,9 @@
+.skill__cards {
+  margin: 0;
+  margin-top: 43px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 16px;
+  flex-wrap: wrap;
+  width: 584px;
+}

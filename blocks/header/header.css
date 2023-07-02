@@ -1,0 +1,14 @@
+.header {
+  background-color: #282c33;
+  width: 1025px;
+  height: 61px;
+  margin-left: 171px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-end;
+  position: fixed;
+  top: 0;
+  left: 155px;
+  z-index: 100;
+}

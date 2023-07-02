@@ -1,0 +1,14 @@
+.quote__sign {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: 400;
+  font-size: 24px;
+  line-height: 31px;
+  border: 1px solid #ABB2BF;
+  border-top: none;
+  width: 163px;
+  height: 63px;
+  margin: 0;
+
+}

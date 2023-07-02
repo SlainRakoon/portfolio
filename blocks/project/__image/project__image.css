@@ -1,0 +1,8 @@
+.project__image {
+  border: 1px solid #ABB2BF;
+  box-sizing: border-box;
+  border-radius: 5px;
+  width: 330px;
+  object-fit: contain;
+  margin: 0 0 6px 0;
+}

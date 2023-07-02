@@ -1,0 +1,6 @@
+.header__menu {
+  margin-bottom: 10px;
+  margin-left: auto;
+  display: flex;
+  flex-direction: row;
+}

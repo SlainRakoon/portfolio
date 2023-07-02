@@ -1,0 +1,7 @@
+.contacts {
+  display: flex;
+  justify-content: space-between;
+  align-items: baseline;
+  width: 1024px;
+  margin-left: auto;
+}

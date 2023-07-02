@@ -1,0 +1,11 @@
+.homepage__discription {
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  width: 400px;
+  height: 37px;
+  position: absolute;
+  bottom: 0;
+  right: 36px;
+}

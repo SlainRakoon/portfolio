@@ -1,0 +1,21 @@
+.header__lang {
+  margin: 0;
+}
+
+#lang {
+  width: 40px;
+  height: 36px;
+  font-size: 15px;
+  font-weight: 600;
+  color: #ABB2BF;
+  background-color: #282c33;
+  outline: none;
+  border: none;
+  box-sizing: border-box;
+  box-shadow: none;
+}
+
+#lang option {
+  font-size: 14px;
+  color: #ABB2BF;
+}

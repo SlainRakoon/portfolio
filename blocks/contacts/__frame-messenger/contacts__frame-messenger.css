@@ -1,0 +1,6 @@
+.contacts__frame-messenger {
+  margin: 0;
+  padding: 8px 16px;
+  display: flex;
+  align-items: center;
+}

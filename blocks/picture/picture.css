@@ -1,0 +1,44 @@
+.picture {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background-size: cover;
+}
+
+.picture:nth-child(1) {
+  background-image: url(../../images/Dots.svg);
+  width: 63px;
+  height: 63px;
+  top: 38px;
+}
+
+.picture:nth-child(2) {
+  background-image: url(../../images/Dots.svg);
+  width: 63px;
+  height: 63px;
+  top: 143px;
+  left: 177px;
+}
+
+.picture:nth-child(3) {
+  background-image: url(../../images/ramka.svg);
+  width: 86px;
+  height: 86px;
+  left: 227px;
+}
+
+.picture:nth-child(4) {
+  background-image: url(../../images/ramka.svg);
+  width: 52px;
+  height: 52px;
+  top: 193px;
+  left: 297px;
+}
+
+.picture:nth-child(5) {
+  background-image: url(../../images/LogoCtrl.svg);
+  width: 113px;
+  height: 113px;
+  top: 169px;
+  left: 15px;
+}

@@ -1,0 +1,10 @@
+.contacts__frame {
+  margin-top: 45px;
+  width: 505px;
+  height: 63px;
+  font-size: 16px;
+  line-height: 21px;
+  font-weight: normal;
+  color: #ABB2BF;
+  position: relative;
+}

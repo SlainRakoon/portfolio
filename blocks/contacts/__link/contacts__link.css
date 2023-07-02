@@ -1,0 +1,9 @@
+.contacts__link {
+  color: #abb2bf;
+  text-decoration: none;
+  margin-left: 8px;
+}
+
+.contacts__link:hover {
+  color: #fff;
+}

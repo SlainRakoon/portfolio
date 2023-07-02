@@ -1,0 +1,8 @@
+.homepage {
+  max-width: 1024px;
+  min-height: 350px;
+  margin: 61px auto 0;
+  margin-right: 0;
+  
+  position: relative;
+}

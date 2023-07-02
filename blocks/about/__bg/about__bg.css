@@ -1,0 +1,37 @@
+.about__bg {
+  position: absolute;
+  background-size: cover;
+}
+
+.about__bg:nth-child(1) {
+  background-image: url(../../../images/Dots.svg);
+  width: 84px;
+  height: 84px;
+  top: 55px;
+  left: -4px;
+}
+
+.about__bg:nth-child(2) {
+  background-image: url(../../../images/Dots.svg);
+  width: 105px;
+  height: 56px;
+  top: 279px;
+  right: 16px;
+}
+
+.about__bg:nth-child(3) {
+  background-image: url(../../../images/Dots.svg);
+  width: 103px;
+  height: 103px;
+  top: 310px;
+  right: -200px;
+}
+
+.about__bg:nth-child(4) {
+  background-image: url(../../../images/cybercat2.png);
+  width: 370px;
+  height: 515px;
+  top: -70px;
+  right: 10px;
+  z-index: -1;
+}
