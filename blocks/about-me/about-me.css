@@ -1,0 +1,6 @@
+.about-me {
+  width: 1024px;
+  margin: 114px 0 0 auto;
+  display: flex;
+  justify-content: space-between;
+}

@@ -7,6 +7,8 @@
   <title>PROJECTS</title>
   <link rel="stylesheet" href="./vendor/normalize.css" />
   <link rel="stylesheet" href="./pages/index.css" />
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="./jscript/index.js"></script>
 </head>
 
 <body class="root">
@@ -14,10 +16,10 @@
     <img class="header__logo" src="./images/logo.svg" alt="logo">
     <h1 class="header__title">CyberCat</h1>
     <nav class="header__menu">
-      <a class="header__link" href="#"><span class="purpltext">#</span>home</a>
-      <a class="header__link" href="#"><span class="purpltext">#</span>works</a>
-      <a class="header__link" href="#"><span class="purpltext">#</span>about-me</a>
-      <a class="header__link" href="#"><span class="purpltext">#</span>contacts</a>
+      <a class="header__link" href="./index.html"><span class="purpltext">#</span>home</a>
+      <a class="header__link active" href="./projects.html"><span class="purpltext">#</span>works</a>
+      <a class="header__link" href="./about-me.html"><span class="purpltext">#</span>about-me</a>
+      <a class="header__link" href="./contacts.html"><span class="purpltext">#</span>contacts</a>
     </nav>
     <div class="header__lang">
       <select id="lang">
@@ -35,7 +37,103 @@
   </article>
 
   <section class="projects">
-    
+    <div class="projects__topic">
+      <h1 class="projects__title"><span class="purpltext">/</span>projects</h1>
+      <p class="projects__caption">List of my projects</p>
+    </div>
+    <div class="complete-apps">
+      <h2 class="complete-apps__title"><span class="purpltext">#</span>complete-apps</h2>
+    </div>
+    <section class="project__cardbox cardbox-grid">
+      <img class="picture__dots" src="./images/Dots.svg" alt="dots" />
+      <img class="picture__ramka_plc_project" src="./images/ramka.svg" alt="ramka">
+      <div class="project__card">
+        <img class="project__image" src="./images/calc.png" alt="заглушка проекта">
+        <p class="project__stektech">HTML CSS JS</p>
+        <div class="project__info">
+          <h4 class="project__card-title">Calculator</h4>
+          <p class="project__description">Простой калькулятор</p>
+          <button class="project__btn button">more <~></button>
+        </div>
+      </div>
+      <div class="project__card">
+        <img class="project__image" src="./images/photomaster.png" alt="заглушка проекта">
+        <p class="project__stektech">HTML CSS</p>
+        <div class="project__info">
+          <h4 class="project__card-title">Landing</h4>
+          <p class="project__description">лэндтнг про путишествия по России</p>
+          <button class="project__btn button">more <~></button>
+        </div>
+      </div>
+      <div class="project__card">
+        <img class="project__image" src="./images/mesto.png" alt="заглушка проекта">
+        <p class="project__stektech">HTML CSS JS</p>
+        <div class="project__info">
+          <h4 class="project__card-title">MESTO</h4>
+          <p class="project__description">Веб-приложение
+            для хранения фото на подобе инстаграмм. лайки коментарии все дела.</p>
+          <button class="project__btn button">more <~></button>
+        </div>
+      </div>
+      <div class="project__card">
+        <img class="project__image" src="./images/calc.png" alt="заглушка проекта">
+        <p class="project__stektech">HTML CSS JS</p>
+        <div class="project__info">
+          <h4 class="project__card-title">Calculator</h4>
+          <p class="project__description">Простой калькулятор</p>
+          <button class="project__btn button">more <~></button>
+        </div>
+      </div>
+      <div class="project__card">
+        <img class="project__image" src="./images/photomaster.png" alt="заглушка проекта">
+        <p class="project__stektech">HTML CSS</p>
+        <div class="project__info">
+          <h4 class="project__card-title">Landing</h4>
+          <p class="project__description">лэндтнг про путишествия по России</p>
+          <button class="project__btn button">more <~></button>
+        </div>
+      </div>
+      <div class="project__card">
+        <img class="project__image" src="./images/mesto.png" alt="заглушка проекта">
+        <p class="project__stektech">HTML CSS JS</p>
+        <div class="project__info">
+          <h4 class="project__card-title">MESTO</h4>
+          <p class="project__description">Веб-приложение
+            для хранения фото на подобе инстаграмм. лайки коментарии все дела.</p>
+          <button class="project__btn button">more <~></button>
+        </div>
+      </div>
+    </section>
+  </section>
+
+  <section class="small-projects">
+    <h2 class="small-projects__title"><span class="purpltext">#</span>small-projects</h2>
+    <div class="cardbox-grid">
+      <div class="project__info">
+        <h4 class="project__card-title">MESTO</h4>
+        <p class="project__description">Веб-приложение
+          для хранения фото на подобе инстаграмм. лайки коментарии все дела.</p>
+        <button class="project__btn button">more <~></button>
+      </div>
+      <div class="project__info">
+        <h4 class="project__card-title">MESTO</h4>
+        <p class="project__description">Веб-приложение
+          для хранения фото на подобе инстаграмм. лайки коментарии все дела.</p>
+        <button class="project__btn button">more <~></button>
+      </div>
+      <div class="project__info">
+        <h4 class="project__card-title">MESTO</h4>
+        <p class="project__description">Веб-приложение
+          для хранения фото на подобе инстаграмм. лайки коментарии все дела.</p>
+        <button class="project__btn button">more <~></button>
+      </div>
+      <div class="project__info">
+        <h4 class="project__card-title">MESTO</h4>
+        <p class="project__description">Веб-приложение
+          для хранения фото на подобе инстаграмм. лайки коментарии все дела.</p>
+        <button class="project__btn button">more <~></button>
+      </div>
+    </div>
   </section>
 
   <hr class="line">

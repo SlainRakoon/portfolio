@@ -1,5 +1,15 @@
+@keyframes rotate {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
 .homepage__idots {
   position: absolute;
   bottom: 93px;
   right: 16px;
+  animation: rotate 30s linear infinite;
 }

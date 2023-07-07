@@ -8,4 +8,6 @@
   position: absolute;
   bottom: 0;
   right: 36px;
+  border: 1px solid #abb2bf;
+  border-radius: 5px;
 }

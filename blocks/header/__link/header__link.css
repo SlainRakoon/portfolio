@@ -4,6 +4,13 @@
   color: #ABB2BF;
 }
 
+.header__link.active {
+  
+  text-decoration: dashed;
+  color: #fff;
+  font-weight: 500;
+}
+
 .header__link:hover {
   color: #fff;
 }

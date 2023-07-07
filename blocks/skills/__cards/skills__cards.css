@@ -1,0 +1,6 @@
+.skills__cards {
+  margin: 0 0 0 auto;
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+  width: 1024px;
+}

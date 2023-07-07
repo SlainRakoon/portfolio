@@ -2,7 +2,9 @@
   background-color: #282c33;
   width: 1025px;
   height: 61px;
-  margin-left: 171px;
+  margin-left: 170px;
+  box-sizing: border-box;
+  transition: box-shadow 0.3s ease;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -11,4 +13,8 @@
   top: 0;
   left: 155px;
   z-index: 100;
+}
+
+.header.scroll {
+  box-shadow: 1px 10px 20px -10px #242628;
 }

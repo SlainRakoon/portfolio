@@ -7,6 +7,8 @@
   <title>SLAIN</title>
   <link rel="stylesheet" href="vendor/normalize.css">
   <link rel="stylesheet" href="pages/index.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script src="./jscript/index.js"></script>
 </head>
 
 <body class="root">
@@ -14,10 +16,10 @@
     <img class="header__logo" src="./images/logo.svg" alt="logo">
     <h1 class="header__title">CyberCat</h1>
     <nav class="header__menu">
-      <a class="header__link" href="#"><span class="purpltext">#</span>home</a>
-      <a class="header__link" href="#"><span class="purpltext">#</span>works</a>
-      <a class="header__link" href="#"><span class="purpltext">#</span>about-me</a>
-      <a class="header__link" href="#"><span class="purpltext">#</span>contacts</a>
+      <a class="header__link active" href="./index.html"><span class="purpltext">#</span>home</a>
+      <a class="header__link" href="./projects.html"><span class="purpltext">#</span>works</a>
+      <a class="header__link" href="./about-me.html"><span class="purpltext">#</span>about-me</a>
+      <a class="header__link" href="./contacts.html"><span class="purpltext">#</span>contacts</a>
     </nav>
     <div class="header__lang">
       <select id="lang">
@@ -71,7 +73,7 @@
       </div>
     </article>
 
-    <section class="project__cardbox">
+    <section class="project__cardbox cardbox-grid">
       <img class="picture__dots" src="./images/Dots.svg" alt="dots" />
       <img class="picture__ramka_plc_project" src="./images/ramka.svg" alt="ramka">
       <div class="project__card">
@@ -152,7 +154,7 @@
 
     <section class="about">
       <div class="about__discription-frame">
-        <p class="about__discription">Hello, i’m CyberCat!<br>
+        <p class="about__discription">Hello, I’m CyberCat!<br>
           <br>
           I’m a self-taught front-end developer based in Saint-Petersburg, Russia. I can develop responsive websites
           from scratch

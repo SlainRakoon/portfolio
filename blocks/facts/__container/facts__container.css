@@ -1,0 +1,6 @@
+.facts__container {
+  margin: 26px 0 0;
+  display: flex;
+  flex-flow: row wrap;
+  width: 605px;
+}
