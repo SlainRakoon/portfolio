@@ -1,0 +1,7 @@
+.contacts-page__link {
+  text-decoration: none;
+  color: #abb2bf;
+  font-size: 16px;
+  display: flex;
+  align-items: center;
+}

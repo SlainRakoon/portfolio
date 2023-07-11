@@ -128,7 +128,18 @@
 @import url(../blocks/facts/__container/facts__container.css);
 @import url(../blocks/facts/__caption/facts__caption.css);
 
+@import url(../blocks/border/border.css);
 
-
-
-
+@import url(../blocks/contacts-page/contacts-page.css);
+@import url(../blocks/contacts-page/__topic/contacts-page__topic.css);
+@import url(../blocks/contacts-page/__about/contacts-page__about.css);
+@import url(../blocks/contacts-page/__support/contacts-page__support.css);
+@import url(../blocks/contacts-page/__social/contacts-page__social.css);
+@import url(../blocks/contacts-page/__title/contacts-page__title.css);
+@import url(../blocks/contacts-page/__caption/contacts-page__caption.css);
+@import url(../blocks/contacts-page/__discription/contacts-page__discription.css);
+@import url(../blocks/contacts-page/__link/contacts-page__link.css);
+@import url(../blocks/contacts-page/__frame/contacts-page__frame.css);
+@import url(../blocks/contacts-page/__media/contacts-page__media.css);
+@import url();
+@import url();

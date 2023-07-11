@@ -1,0 +1,7 @@
+.contacts-page__social {
+  width: 242px;
+  margin: 0 0 63px 0;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+}

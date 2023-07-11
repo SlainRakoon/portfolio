@@ -1,0 +1,8 @@
+.contacts-page {
+  width: 1024px;
+  margin-top: 114px;
+  margin-left: auto;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
